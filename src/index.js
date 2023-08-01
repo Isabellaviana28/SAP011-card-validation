@@ -45,13 +45,13 @@ function alerta() {
    var verificar1 = Ndobro.charAt (1) 
   if (verificar1 >9) 
 
-  var verificar2 = Ndobro.charAt (2) 
+  var verificar2 = Ndobro2.charAt (2) 
   if (verificar2 >9)
   
-  var verificar3 = Ndobro.charAt (3) 
+  var verificar3 = Ndobro3.charAt (3) 
   if (verificar3 >9) 
   
-  var verificar4 = Ndobro.charAt (4) 
+  var verificar4 = Ndobro4.charAt (4) 
   if (verificar4 >9) 
 
 
