@@ -42,19 +42,49 @@ function alerta() {
   var Ndobro4 = arrayDeNumeros[7]*2;
 
 
-   var verificar1 = Ndobro.charAt (1) 
-  if (verificar1 >9) 
+   var verificar1 = Ndobro.toString().charAt (0) 
+  if (verificar1 >9) {
+    var resultado1 = verificar1
+    var algarismo1 = verificar1.length (1)
+  } 
 
-  var verificar2 = Ndobro2.charAt (2) 
-  if (verificar2 >9)
+  var verificar2 = Ndobro.toString().charAt (0) 
+  if (verificar2 >9) {
+    var resultado2 = verificar2
+    var algarismo2 = verificar2.length (1)
+  } 
   
-  var verificar3 = Ndobro3.charAt (3) 
-  if (verificar3 >9) 
+  var verificar3 = Ndobro.toString().charAt (0) 
+  if (verificar3 >9) {
+    var resultado3 = verificar3
+    var algarismo3 = verificar3.length (1)
+  }  
   
-  var verificar4 = Ndobro4.charAt (4) 
-  if (verificar4 >9) 
+  var verificar4 = Ndobro.toString().charAt (0) 
+  if (verificar4 >9) {
+    var resultado4 = verificar4
+    var algarismo4 = verificar4.length (1)
+  } 
 
 
-  alert (botao);
+
+  var verificar1 = Math.floor(resultado1 / 10); // Obtém o primeiro algarismo
+  var verificar1 = resultado1 % 10; // Obtém o segundo algarismo
+  resultado1 =  verificar1 + algarismo1; // Soma os algarismos
+
+
+  alert (verificar1);
+
+  var verificar2 = Math.floor(resultado2 / 10); // Obtém o primeiro algarismo
+  var verificar2 = resultado2 % 10; // Obtém o segundo algarismo
+  resultado2 =  verificar2 + algarismo2; // Soma os algarismos
+
+  var verificar3 = Math.floor(resultado3 / 10); // Obtém o primeiro algarismo
+  var verificar3 = resultado2 % 10; // Obtém o segundo algarismo
+  resultado3 =  verificar3 + algarismo3; // Soma os algarismos
+
+  var verificar4 = Math.floor(resultado4 / 10); // Obtém o primeiro algarismo
+  var verificar4 = resultado2 % 10; // Obtém o segundo algarismo
+  resultado4 =  verificar4 + algarismo4; // Soma os algarismos
 }
 document.getElementById ("botao").addEventListener("click", alerta);
