@@ -5,7 +5,7 @@ html {
   }
   
   body {
-    background-color:palevioletred
+    background-color:lightgrey
   }
   label {
     background-color: lightgreen;
@@ -17,5 +17,5 @@ html {
     
   }
   button {
-    background-color: greenyellow;
+    background-color: lightseagreen;
   }
